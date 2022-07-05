@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttomnavbar"
+    android:label="Home"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.ajio.Fragments.home_fragment"
+        android:label="fragment_home_fragment"
+        tools:layout="@layout/fragment_home_fragment" />
+    <fragment
+        android:id="@+id/brand_Fragment"
+        android:name="com.example.ajio.Fragments.brand_Fragment"
+        android:label="fragment_brand_"
+        tools:layout="@layout/fragment_brand_" />
+    <fragment
+        android:id="@+id/account_Fragment"
+        android:name="com.example.ajio.Fragments.account_Fragment"
+        android:label="fragment_account_"
+        tools:layout="@layout/fragment_account_" />
+    <fragment
+        android:id="@+id/wishlist_Fragment"
+        android:name="com.example.ajio.Fragments.wishlist_Fragment"
+        android:label="fragment_wishlist_"
+        tools:layout="@layout/fragment_wishlist_" />
+    <fragment
+        android:id="@+id/bag_Fragment"
+        android:name="com.example.ajio.Fragments.bag_Fragment"
+        android:label="fragment_bag_"
+        tools:layout="@layout/fragment_bag_" />
+</navigation>

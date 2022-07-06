@@ -13,7 +13,7 @@
         android:id="@+id/rocket"
         android:layout_width="69dp"
         android:layout_height="55dp"
-        app:srcCompat="@drawable/flower" />
+        app:srcCompat="@drawable/apic" />
 
     <TextView
         android:id="@+id/appname"

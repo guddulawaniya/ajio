@@ -17,7 +17,13 @@ public class Splash_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
+        ImageView rocket = findViewById(R.id.rocket);
+        TextView name = findViewById(R.id.appname);
+        Animation imagerocket = AnimationUtils.loadAnimation(this,R.anim.image_animation);
+        rocket.startAnimation(imagerocket);
 
+        Animation appanimation = AnimationUtils.loadAnimation(this,R.anim.text_animation);
+        name.startAnimation(appanimation);
 
 
         new Handler().postDelayed(new Runnable() {

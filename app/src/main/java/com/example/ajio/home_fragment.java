@@ -13,15 +13,22 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import com.example.ajio.databinding.FragmentHomeFragmentBinding;
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
 
 import java.util.ArrayList;
 
 
 public class home_fragment extends Fragment {
 
-    RecyclerView horizontalrecyclerview;
     FragmentHomeFragmentBinding binding;
     ArrayList<Models> list;
+    SliderView sliderView;
+
+    int[] images = {R.drawable.image1,
+            R.drawable.image2,
+            R.drawable.image3,};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,10 +38,10 @@ public class home_fragment extends Fragment {
         list.add(new Models(R.drawable.image1,"image 1"));
         list.add(new Models(R.drawable.image2,"image 2"));
         list.add(new Models(R.drawable.image3,"image 3"));
-        list.add(new Models(R.drawable.image3,"image 3"));
-        list.add(new Models(R.drawable.image3,"image 3"));
-        list.add(new Models(R.drawable.image3,"image 3"));
-        list.add(new Models(R.drawable.image3,"image 3"));
+        list.add(new Models(R.drawable.image2,"image 2"));
+        list.add(new Models(R.drawable.image1,"image 1"));
+        list.add(new Models(R.drawable.image2,"image 2"));
+        list.add(new Models(R.drawable.image3,"image 1"));
         // Inflate the layout for this fragment
         horzontalAdapter horzontalAdapter = new horzontalAdapter(list, getContext());
 
@@ -52,6 +59,14 @@ public class home_fragment extends Fragment {
                 startActivity(intent);
             }
         });
+//        sliderView = getView().findViewById(R.id.image_slider);
+//
+//        SliderAdapter sliderAdapter = new SliderAdapter(images);
+//
+//        sliderView.setSliderAdapter(sliderAdapter);
+//        sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+//        sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
+//        sliderView.startAutoCycle();
 
         binding.horizontalrecyclerview.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.HORIZONTAL,true));
         binding.horizontalrecyclerview.setAdapter(horzontalAdapter);

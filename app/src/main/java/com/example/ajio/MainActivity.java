@@ -25,12 +25,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         navigationView.setOnNavigationItemSelectedListener(this);
 
 
-//        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(R.id.home_fragment,R.id.brand_Fragment,R.id.account_Fragment
-//        ,R.id.wishlist_Fragment,R.id.bag_Fragment).build();
-//        NavController controller = Navigation.findNavController(this,R.id.nav_host_fragment_activity_main);
-//        NavigationUI.setupActionBarWithNavController(this,controller,appBarConfiguration);
-//        NavigationUI.setupWithNavController(navigationView,controller);
-
     }
 
 

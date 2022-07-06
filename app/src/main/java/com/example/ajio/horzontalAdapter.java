@@ -32,7 +32,7 @@ public class horzontalAdapter extends RecyclerView.Adapter<horzontalAdapter.view
     @Override
     public void onBindViewHolder(@NonNull viewholder holder, int position) {
         Models models = list.get(position);
-        holder.name.setText(models.getImage());
+        holder.name.setText(models.getPicname());
         holder.imageView.setImageResource(models.getImage());
 
     }

@@ -1,4 +1,4 @@
-package com.example.ajio.Fragments;
+package com.example.ajio;
 
 import android.os.Bundle;
 
@@ -7,8 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.ajio.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -28,7 +28,9 @@ public class profileSidebar extends AppCompatActivity {
         binding.homeicon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              onBackPressed();
+              Intent intent = new Intent(profileSidebar.this,MainActivity.class);
+              startActivity(intent);
+              finish();
             }
         });
         binding.searchbar.setOnClickListener(new View.OnClickListener() {

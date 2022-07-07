@@ -4,22 +4,52 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable-v24/freestartbutton.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable-v24/likebgafterclick.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/bestsellerbg.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/boxtimebg.xml" value="0.2145" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/buttonhomeicon.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/colorboxoutline_ring.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/colorsbg.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/crossbutton.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/gallery.xml" value="0.2145" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/grediantcolorbg.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/like.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/likebg.xml" value="0.224" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/linearroundcorner.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/menuicon.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/pdetail_linearbg.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/pdetailsboxtmebg.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/productsbg.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/sale.xml" value="0.2145" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/searchbarbg.xml" value="0.224" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/select_box_size.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/drawable/user.xml" value="0.2145" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_buttomsheet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_fullimage.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_notification.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_product_details.xml" value="0.2" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_products.xml" value="0.264" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_profile_sidebar.xml" value="0.25" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_search.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/activity_splash_screen.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/buttom_nav_bar.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/buttomsheet_sample.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_account_.xml" value="0.2" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_bag_.xml" value="0.25" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_brand_.xml" value="0.25" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_buttom_sheet_details.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_fullimage_.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_home_fragment.xml" value="0.2" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/fragment_wishlist_.xml" value="0.25" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/horizontalrecyclerview_sample.xml" value="0.25" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/pdetails_price_details.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/product_detail_image_sample.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/productbg.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/products_color_session.xml" value="0.2" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/products_items.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/productslider_sample.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/select_size.xml" value="0.6" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/layout/sliderimage.xml" value="0.2" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/Ajio/app/src/main/res/menu/menu.xml" value="0.264" />
       </map>

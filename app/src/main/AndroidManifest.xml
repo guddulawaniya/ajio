@@ -14,31 +14,39 @@
         android:theme="@style/Theme.Ajio"
         tools:targetApi="31">
         <activity
+            android:name=".product_activity_details"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".fullimage_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Products_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Notification_Activity"
             android:exported="false" />
-
-        <activity android:name=".Splash_screen"
+        <activity
+            android:name=".Splash_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".Search_Activity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".profileSidebar"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -2,17 +2,16 @@ package com.example.ajio;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.ajio.Fragments.account_Fragment;
+import com.example.ajio.Fragments.bag_Fragment;
+import com.example.ajio.Fragments.brand_Fragment;
+import com.example.ajio.Fragments.home_fragment;
+import com.example.ajio.Fragments.wishlist_Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 
 
-    home_fragment home_fragment = new home_fragment();
+    com.example.ajio.Fragments.home_fragment home_fragment = new home_fragment();
     brand_Fragment brand_fragment = new brand_Fragment();
     account_Fragment account_fragment = new account_Fragment();
     wishlist_Fragment wishlist_fragment = new wishlist_Fragment();

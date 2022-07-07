@@ -13,12 +13,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class horzontalAdapter extends RecyclerView.Adapter<horzontalAdapter.viewholder> {
+
+
+public class productDetailslideradapter extends RecyclerView.Adapter<productDetailslideradapter.viewholder> {
 
     ArrayList<Models> list;
     Context context;
 
-    public horzontalAdapter(ArrayList<Models> list, Context context) {
+    public productDetailslideradapter(ArrayList<Models> list, Context context) {
         this.list = list;
         this.context = context;
     }
@@ -26,19 +28,18 @@ public class horzontalAdapter extends RecyclerView.Adapter<horzontalAdapter.view
     @NonNull
     @Override
     public viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view  = LayoutInflater.from(context).inflate(R.layout.horizontalrecyclerview_sample,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.product_detail_image_sample, parent, false);
         return new viewholder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull viewholder holder, int position) {
         Models models = list.get(position);
-        holder.name.setText(models.getPicname());
         holder.imageView.setImageResource(models.getImage());
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Products_Activity.class);
+                Intent intent = new Intent(context,fullimage_Activity.class);
                 context.startActivity(intent);
             }
         });
@@ -53,10 +54,10 @@ public class horzontalAdapter extends RecyclerView.Adapter<horzontalAdapter.view
     public class viewholder extends RecyclerView.ViewHolder {
         ImageView imageView;
         TextView name;
+
         public viewholder(@NonNull View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.horizontalimage);
-            name = itemView.findViewById(R.id.pictextname);
+            imageView = itemView.findViewById(R.id.productsliderimage);
         }
     }
 }

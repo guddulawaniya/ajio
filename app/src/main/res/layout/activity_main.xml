@@ -13,7 +13,6 @@
         android:layout_width="0dp"
         app:backgroundTint="@color/white"
         app:itemIconTint="@color/black"
-
         android:layout_height="wrap_content"
         app:itemTextColor="@color/teal_700"
         app:itemRippleColor="@color/purple_200"
